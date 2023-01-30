@@ -1,0 +1,41 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>17 Vetor</title>
+
+    <!-- JS -->
+    <script>
+
+    // Vetor
+    var cores = ["Azul", "Verde", "Amarelo"]
+
+    // Exibir o valor
+    // document.write(cores)
+
+    // Pra exibir a informação na aba 
+    // console.log(cores)
+
+    // Para exibir informações de uma determinada posição
+    // document.write(cores[0])
+    
+    // Exibir a quantidade de cores
+    // document.write(cores.length)
+      
+
+    // Adicionar
+    cores.push("Vermelho")
+
+
+    // Alterar
+    cores[1] = "Rosa"
+
+    // Excluir
+    cores.splice(2, 1)
+
+    // Listando cores
+    for(var indice = 0; indice < cores.length; indice++){
+        document.write((indice+1)+ "ª "+ cores[indice]+"<br>")
+    }
+    </script>
+</head>
+<body>
